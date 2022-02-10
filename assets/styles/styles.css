@@ -1,0 +1,107 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Circular Spotify Tx T Black', sans-serif;
+  overflow-x: hidden;
+ 
+  --main-green: #1ED760;
+  --main-blue: rgb(41, 65, 171);
+  --background-highlight: #21e065;
+}
+
+body{
+  width: 100vw;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 8.4vh;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0px 367px;
+  font-weight: 700;
+}
+
+nav img, nav li{
+  margin: 2.1vh 0px;
+}
+
+ul#navLinks{
+  display: flex;
+  align-items: center;
+}
+
+ul#navLinks li{
+  margin: 0px 17px;
+}
+
+li{
+  list-style-type: none;
+}
+
+li:hover, a:hover{
+  color: var(--main-green);
+}
+
+#mainContent{
+  color: var(--main-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-blue);
+  flex-direction: column;
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-position-x: 44%;
+  background-position-y: 7%;
+  background-size: 170%;
+  height: 846px;
+  min-height: 846px;
+  line-height: 166px;
+  text-align: center;
+}
+
+#mainContent h1{
+  font-size: 156px;
+  letter-spacing: -0.05em;
+  
+}
+
+#mainText{
+  text-align: center;
+  padding-bottom: 40px;  
+}
+
+#mainContent p{
+  font-size: 18px;
+  font-family: spotify-circular, sans-serif;
+  font-weight: 500;
+  display: inline;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+#downloadSpotifyButton{
+  padding: 14px 32px;
+  border-radius: 500px;
+  border: none;
+  background-color: var(--main-green);
+  color: var(--main-blue);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#downloadSpotifyButton:hover{
+  background-color: var(--background-highlight);
+  transform: scale(1.04);
+}
+
+#footer{
+  color: white;
+  background-color: #000;
+}
+

@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2" as="font" type="font/woff2" crossorigin="true">
+  <link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Black.woff2" as="font" type="font/woff2" crossorigin="true">
+  <link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2" as="font" type="font/woff2" crossorigin="true">
   <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="icon" type="image/png" href="https://www.scdn.co/i/_global/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/52e9166c56.js" crossorigin="anonymous"></script>
   <title>Escutar muda tudo - Spotify</title>
@@ -15,7 +19,7 @@
       <nav>
         <img src="assets/images/logo-spotify.png" alt="logo-spotify">
         
-        <ul>
+        <ul id="navLinks">
           <li>Premium</li>
           <li>Suporte</li>
           <li>Baixar</li>
@@ -26,11 +30,11 @@
       </nav>
     </div>
 
+
     <div id="mainContent">
-      <h1>Escutar muda</h1>
-      <h1>tudo</h1>
+      <h1>Escutar muda<br>tudo</h1>
       <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
-      <input type="button" value="Baixe o Spotify free">
+      <button id="downloadSpotifyButton">Baixe o Spotify Free</button>
     </div>
 
     <div id="footer">
