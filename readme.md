@@ -1,5 +1,7 @@
 # Spotify Web Page Clone 
 
+🚧 **Constructing responsiveness**
+
 This is a clone made with **love** for studying reasons.
 
 </br>
